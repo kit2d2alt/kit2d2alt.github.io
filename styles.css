@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden; 
+}
+
+.scroll-container {
+    height: 100vh;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.content {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+    position: center;
+}
+
+.snap {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #8cc84b;
+    font-weight: 700; 
+    text-align: middle;
+}
+
+pre {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    color: #8cc84b;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden; 
+}
+
+.scroll-container {
+    height: 100vh;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.content {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+    position: center;
+}
+
+.snap {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #8cc84b;
+    font-weight: 700; 
+    text-align: middle;
+}
+
+pre {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+code {
+    color: #8cc84b;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cat {
+    position: fixed;
+    top: 50%;
+    width: 100px;
+    height: auto;
+    animation: runAcross 5s linear infinite;
+}
+
+@keyframes runAcross {
+    0% {
+        right: -100px;
+    }
+    100% {
+        right: 100%;
+    }
+}
